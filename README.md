@@ -3,7 +3,7 @@
 This project is a **Streamlit web application** that detects whether a news article is **fake or real** using machine learning models trained on a labeled dataset of real and fake news articles.
 
 ## 🚀 Live Demo
-[Click here to try the app](https://your-streamlit-app-url.streamlit.app)  
+[Click here to try the app](https://detector4fakenews.streamlit.app/)  
 
 
 ---
@@ -37,12 +37,12 @@ Model evaluation included:
 
 ## 📊 Features
 
-- **EDA Section**: Visualizations including class distribution, word clouds, and top frequent words.
-- **Model Section**:
-  - Accuracy comparison between Logistic Regression and Naive Bayes
-  - Confusion matrices
-  - Input field for custom news text to get predictions from both models
-- **Conclusion Section**: Highlights key findings from the analysis
+- Paste or upload a news article to check if it’s Fake or Real.
+- Choose between two trained models: **Logistic Regression** and **Naive Bayes**.
+- Real-time prediction result with clean UI.
+- Trained on 45,000+ real and fake news articles.
+- TF-IDF Vectorization for feature extraction.
+
 
 ---
 
@@ -58,13 +58,9 @@ cd FakeNewsDetection
 Make sure you have Python 3.7+ installed, then run:
 
 ```bash
-Copy
-Edit
 pip install -r requirements.txt 
 ```
 ### 3. Launch the App
 ``` bash
-Copy
-Edit
 streamlit run NewsDetectionStreamlit.py
 ``` 
